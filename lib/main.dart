@@ -13,13 +13,19 @@ Future main() async {
 class App extends StatelessWidget {
   static var lightTheme = ThemeData(
     brightness: Brightness.light,
-    primarySwatch: Colors.red,
-    accentColor: Colors.redAccent[400],
+    colorScheme: ColorScheme.fromSwatch(
+      primarySwatch: Colors.red,
+    ).copyWith(
+      secondary: Colors.redAccent[400],
+    ),
   );
   static var darkTheme = ThemeData(
     brightness: Brightness.dark,
-    primarySwatch: Colors.red,
-    accentColor: Colors.redAccent[400],
+    colorScheme: ColorScheme.fromSwatch(
+      primarySwatch: Colors.red,
+    ).copyWith(
+      secondary: Colors.redAccent[400],
+    ),
   );
 
   const App({super.key});

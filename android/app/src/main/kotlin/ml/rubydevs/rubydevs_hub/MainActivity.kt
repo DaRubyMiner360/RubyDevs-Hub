@@ -1,4 +1,4 @@
-package com.example.rubydevs_hub
+package ml.rubydevs.rubydevs_hub
 
 import io.flutter.embedding.android.FlutterActivity
 

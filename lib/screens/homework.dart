@@ -682,6 +682,7 @@ class _HomeworkSettingsPageState extends State<HomeworkSettingsPage> {
                       await _HomeworkPageState._prefs
                           ?.setStringList('showStatuses', _showStatuses);
                     },
+                    whenEmpty: 'Select Shown Statuses',
                   ),
                 ),
               ],
