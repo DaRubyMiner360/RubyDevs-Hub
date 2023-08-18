@@ -373,9 +373,9 @@ class _HomeworkPageState extends State<HomeworkPage> {
                       ),
                       onPressed: () async {
                         setState(() {
-                          if (_adding) {
+                          //if (_adding) {
                             fetchData();
-                          }
+                          //}
                           _adding = !_adding;
                           return;
                         });
